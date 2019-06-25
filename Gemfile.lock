@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/fzaman6505/fizzaportfolio_view_tool
+  revision: 3a58ea375129c5b7b0960731bdcc106f27b9c1c3
+  specs:
+    fizzaportfolio_view_tool (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -205,6 +211,7 @@ DEPENDENCIES
   byebug
   coffee-rails (~> 4.2)
   devise (~> 4.2)
+  fizzaportfolio_view_tool!
   friendly_id (~> 5.1.0)
   jbuilder (~> 2.5)
   jquery-rails

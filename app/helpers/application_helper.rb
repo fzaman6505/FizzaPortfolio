@@ -19,5 +19,8 @@ module ApplicationHelper
 	end
 	
 		  
+def copyright_generator
+	FizzaportfolioViewTool::Renderer.copyright 'Fizza Zaman', 'All rights reserved'
+	end
 
 end

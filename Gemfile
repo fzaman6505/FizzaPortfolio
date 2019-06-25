@@ -61,3 +61,5 @@ gem 'devise', '~> 4.2'
 gem 'bootstrap', '~> 4.3.1'
 
 gem 'jquery-rails'
+
+gem 'fizzaportfolio_view_tool', git: 'https://github.com/fzaman6505/fizzaportfolio_view_tool'

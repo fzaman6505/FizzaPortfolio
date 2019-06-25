@@ -9,3 +9,4 @@ include CurrentUserConcern
 include DefaultPageContent
 
 end
+
