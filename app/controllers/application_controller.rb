@@ -4,5 +4,6 @@ include DeviseWhitelist
 
 include SetSource
 
+include CurrentUserConcern
 
 end
