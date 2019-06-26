@@ -63,3 +63,5 @@ gem 'bootstrap', '~> 4.3.1'
 gem 'jquery-rails'
 
 gem 'fizzaportfolio_view_tool', git: 'https://github.com/fzaman6505/fizzaportfolio_view_tool'
+
+gem 'petergate', '~> 1.7'
