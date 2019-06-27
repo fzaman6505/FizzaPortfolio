@@ -31,7 +31,6 @@ body {
   height: 100%;
   background-color: #333;
 }
-
 body {
   color: #fff;
   text-align: center;
@@ -42,6 +41,8 @@ body {
 .site-wrapper {
   display: table;
   width: 100%;
+  height: 100%; /* For at least Firefox */
+  min-height: 100%;
   -webkit-box-shadow: inset 0 0 5rem rgba(0,0,0,.5);
           box-shadow: inset 0 0 5rem rgba(0,0,0,.5);
 }
@@ -58,7 +59,6 @@ body {
 .inner {
   padding: 2rem;
 }
-
 
 
 /*
@@ -108,40 +108,42 @@ body {
 /*
  * Cover
  */
+
 .cover {
   padding: 0 1.5rem;
 }
 .cover .btn-lg {
   padding: .75rem 1.25rem;
-  font-weight: 700;
+  font-weight: bold;
 }
 
 
 /*
  * Footer
  */
+
 .mastfoot {
-  color: rgba(255, 255, 255, .5);
+  color: rgba(255,255,255,.5);
 }
 
 
 /*
- * Affix and center 
+ * Affix and center
  */
 
 @media (min-width: 40em) {
   /* Pull out the header and footer */
   .masthead {
-  position: fixed;
-  top: 0
+    position: fixed;
+    top: 0;
   }
   .mastfoot {
-  position: fixed;
-  bottom: 0
+    position: fixed;
+    bottom: 0;
   }
-  /*Start the veritcal centering */
+  /* Start the vertical centering */
   .site-wrapper-inner {
-    vertical-align: middle; 
+    vertical-align: middle;
   }
   /* Handle the widths */
   .masthead,
@@ -151,11 +153,38 @@ body {
   }
 }
 
-
 @media (min-width: 62em) {
   .masthead,
   .mastfoot,
   .cover-container {
-  width: 55rem;
+    width: 55rem;
   }
+}
+
+/*
+ * Custom Styles
+ */
+
+.card-block {
+  color: black;
+  text-align: left;
+}
+
+.auth-links a {
+  color: black;
+}
+
+.register-text {
+  text-align: right;
+}
+
+.login > .card {
+  width: 22rem;
+  margin: 0 auto;
+  float: none;
+}
+
+.app-nav span {
+  margin-left: 15px;
+  margin-right: 15px;
 }
