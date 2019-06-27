@@ -65,3 +65,7 @@ gem 'jquery-rails'
 gem 'fizzaportfolio_view_tool', git: 'https://github.com/fzaman6505/fizzaportfolio_view_tool'
 
 gem 'petergate', '~> 1.7'
+
+gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.1'
+
+gem 'kaminari', '~> 1.0', '>= 1.0.1'
